@@ -206,7 +206,11 @@
                 </div>
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form action="#">
+                    <form name="contact" method="POST" data-netlify="true">
+
+                      <input type="hidden" name="subject" 
+
+  value="Sales inquiry from mysitename.netlify.app" />
                         <div class="fields">
                             <div class="field name">
                                 <input type="text" placeholder="Name" required>
