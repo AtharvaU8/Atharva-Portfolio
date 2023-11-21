@@ -231,8 +231,8 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FCEA74", en
     content: "who i am";
 }
 .about .about-content .left{
-    width: 50%;
-    height: 400px;
+    width: 45%;
+    height: 600px;
 }
 
 .about .about-content .right{
